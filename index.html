@@ -10,7 +10,10 @@
 </head>
 <body>
     <header>
-   <div class="container mx-auto">
+
+   <div class="md:container mx-auto w-[95%]">
+
+    <!-- nav- bar -->
 
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -20,7 +23,7 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal md:px-1 space-x-5 ">
-                  <li class="font-bold">Home</li>
+                  <li class="font-bold">Home</li>git branch -M main
                   <li>services</li>
                   <li>portfolio</li>
                   <li>blogs</li>
@@ -59,13 +62,50 @@
                     </ul>
                   </div>
               </div> 
+
+<!-- header-content -->
+ <div class="flex flex-col items-center space-y-4">
+    <img src="./assets/banner.png" alt="">
+    <h1 class="md:text-4xl text-3xl font-bold text-center">A barn house of this design has a <br class="hidden md:block">striking appearance</h1>
+    <p class="text-center">the barn house captivates with its blend of rustic charm and modern sophistication ,featuring weathered wood ,sleek metal <br> accents,and large windows that food the space with natural light,</p>
+    <button class="bg-[#ABEF5F80] p-2 rounded-full w-full md:w-2/12"><h1 class="inline font-bold ">view details</h1><i class="fa-solid fa-arrow-right -rotate-45   rounded-[100%] p-1"></i></button>
+
+ </div>
             </div> 
-
-       
-
     </header>
 
-    <main></main>
+    <main  class="bg-slate-100 my-10">
+        <section class="relative">
+            
+           <div class="border border-dashed absolute w-36 h-24 ml-14 hidden md:block "><img class="py-4" src="./assets/Vector.png" alt=""></div> 
+            <div class="container mx-auto">
+            <div class="grid md:grid-cols-2 grid-cols-1 py-16 space-x-3 ">
+                <div class="space-y-4"> 
+                    <div class="text-center md:text-start "><button class="bg-[rgb(255,255,255)] p-2 rounded-full "><h1 class="inline font-bold ">About us</h1><i class="fa-solid fa-arrow-right   rounded-[100%] p-1"></i></button>
+                    <h1 class="font-semibold text-2xl"> We design thoughtful,<br> liveable spaces</h1>
+                    <p> the barn house captivates with its blend of rustic charm and <br> modern sophistication, featuring weathered wood, sleek metal accents.</p> </div>
+
+                    <div class="flex space-x-4 bg-white p-8">
+                        <div  ><img src="./assets/commercial.png" alt=""></div>
+                        <div><h1 class="font-semibold"> commercial</h1> 
+                        <p>the barn house captivates with its blend <br> of rustic charm and modern</p></div>
+                    </div>
+
+                    <div class="flex space-x-4 bg-white p-8 ">
+                        <div><img src="./assets/residential.png" alt=""></div>
+                        <div>
+                            <h1 class="font-semibold"> Residential</h1>
+                            <p>the barn house captivates with its blend <br> of rustic charm and modern</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div><img src="./assets/Rectangle.png" alt=""></div>
+            </div>
+        </div>
+                
+        </section>
+    </main>
     
 
     <footer></footer>
